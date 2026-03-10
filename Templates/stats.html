@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% block title %}Tournament Stats | ICC Men's T20 World Cup 2026{% endblock title %}
+
+{% block body %}
+<div class="container my-5">
+    <div class="p-4 mb-5 bg-dark text-white rounded-3 shadow text-center border-bottom border-warning border-5">
+        <h1 class="display-5 fw-bold text-uppercase mb-2">2026 T20 World Cup Stats</h1>
+        <p class="lead mb-0 text-light">The official numbers, top performers, and record-breaking moments from India & Sri Lanka.</p>
+    </div>
+
+    <div class="row g-5">
+        
+        <div class="col-lg-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-primary text-white fw-bold fs-5 py-3">
+                    🏏 Most Runs (Top Batters)
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0 text-center align-middle">
+                            <thead class="table-light text-primary">
+                                <tr>
+                                    <th>Rank</th>
+                                    <th class="text-start">Player</th>
+                                    <th>Team</th>
+                                    <th>Runs</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-warning fw-bold">
+                                    <td>1</td>
+                                    <td class="text-start">Sahibzada Farhan</td>
+                                    <td>🇵🇰 Pakistan</td>
+                                    <td>383</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td class="text-start">Tim Seifert</td>
+                                    <td>🇳🇿 New Zealand</td>
+                                    <td>326</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="text-start">Sanju Samson</td>
+                                    <td>🇮🇳 India</td>
+                                    <td>321</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td class="text-start">Ishan Kishan</td>
+                                    <td>🇮🇳 India</td>
+                                    <td>317</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td class="text-start">Finn Allen</td>
+                                    <td>🇳🇿 New Zealand</td>
+                                    <td>298</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-danger text-white fw-bold fs-5 py-3">
+                    🎯 Most Wickets (Top Bowlers)
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0 text-center align-middle">
+                            <thead class="table-light text-danger">
+                                <tr>
+                                    <th>Rank</th>
+                                    <th class="text-start">Player</th>
+                                    <th>Team</th>
+                                    <th>Wickets</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-warning fw-bold">
+                                    <td>1</td>
+                                    <td class="text-start">Jasprit Bumrah</td>
+                                    <td>🇮🇳 India</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr class="table-warning fw-bold">
+                                    <td>1</td>
+                                    <td class="text-start">Varun Chakaravarthy</td>
+                                    <td>🇮🇳 India</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="text-start">Adil Rashid</td>
+                                    <td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</td>
+                                    <td>13</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td class="text-start">Blessing Muzarabani</td>
+                                    <td>🇿🇼 Zimbabwe</td>
+                                    <td>13</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td class="text-start">S. van Schalkwyk</td>
+                                    <td>🇺🇸 USA</td>
+                                    <td>13</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-success text-white fw-bold fs-5 py-3">
+                    💥 Highest Team Totals
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0 text-center align-middle">
+                            <thead class="table-light text-success">
+                                <tr>
+                                    <th class="text-start">Team</th>
+                                    <th>Score</th>
+                                    <th>Opponent</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-success fw-bold">
+                                    <td class="text-start">🇮🇳 India</td>
+                                    <td>256/4</td>
+                                    <td>Zimbabwe</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-start">🇮🇳 India</td>
+                                    <td>255/5</td>
+                                    <td>New Zealand (Final)</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-start">🏝️ West Indies</td>
+                                    <td>254/6</td>
+                                    <td>Zimbabwe</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-start">🇮🇳 India</td>
+                                    <td>253/7</td>
+                                    <td>England (Semi-Final)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-info text-dark fw-bold fs-5 py-3">
+                    🔥 Highest Individual Scores
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover mb-0 text-center align-middle">
+                            <thead class="table-light text-info-emphasis">
+                                <tr>
+                                    <th class="text-start">Player</th>
+                                    <th>Team</th>
+                                    <th>Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-info fw-bold">
+                                    <td class="text-start">Yuvraj Samra</td>
+                                    <td>🇨🇦 Canada</td>
+                                    <td>110</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-start">Sahibzada Farhan</td>
+                                    <td>🇵🇰 Pakistan</td>
+                                    <td>100*</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-start">Pathum Nissanka</td>
+                                    <td>🇱🇰 Sri Lanka</td>
+                                    <td>100*</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-start">Harry Brook</td>
+                                    <td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</td>
+                                    <td>100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock body %}
